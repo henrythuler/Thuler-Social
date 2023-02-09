@@ -3,7 +3,7 @@
 :computer: Este projeto é um feed responsivo de uma rede social desenvolvido com HTML, CSS, JavaScript e VueJS.
 <br>
 <br>
-:man_technologist: Utilizei props para estabelecer a comunicação entre os componentes, binding, emissão de eventos, associação bi-lateral e outras funcionalidades.
+:man_technologist: Utilizei props para estabelecer a comunicação entre os componentes, binding, eventos personalizados, associação bi-lateral e outras funcionalidades.
 <br>
 <br>
 :page_facing_up: O projeto contém as seguintes funcionalidades:
@@ -21,7 +21,7 @@
 :computer: This project is a responsive social media feed developed in HTML, CSS, JavaScript e VueJS.
 <br>
 <br>
-:man_technologist: I've used props in order to stablish the comunication between the components, binding, event emition, two-way data bindings and other functionalities.
+:man_technologist: I've used props in order to stablish the comunication between the components, binding, custom events, two-way data bindings and other functionalities.
 <br>
 <br>
 :page_facing_up: The project contain the following functionalities:
