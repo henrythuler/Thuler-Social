@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./assets/icon/icon.ico">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<!--<script src="https://cdn.jsdelivr.net/npm/vue"></script>-->
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <title>Thuler Social</title>
+</head>
+<body>
+
+    <div id="app">
+
+        <header>
+
+            <div class="header-container">
+    
+                <h1>Thuler Social</h1>
+
+                <form>
+
+                    <span>Digite seu nome de usuário:</span>
+                    <input v-model="username" type="text">
+
+                </form>
+                
+            </div><!--Header Container-->
+            
+        </header>
+
+        <template v-for="(post, index) in posts">
+
+            
+            <post :onepost="post" :i="index" @sendcomment="addComment" @sendliked="addLike"></post>
+
+        </template>
+    
+        <footer>
+
+            <p>Developed by: <b>Henry Thuler</b></p>
+
+        </footer>
+
+    </div><!--App-->
+
+    <script src="./assets/scripts/script.js"></script>
+
+</body>
+</html>
