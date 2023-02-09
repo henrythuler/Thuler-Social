@@ -28,7 +28,7 @@
 <br>
 <br>
 <p>- Choose your username.</p>
-<p>- Comment in each post.</p>
+<p>- Comment on each post.</p>
 <p>- Like/Dislike each post.</p>
 <p>Obs: Either the username and comment inputs are validated so it can't be used as empty.</p>
 <br>
